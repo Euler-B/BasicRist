@@ -1,4 +1,4 @@
 fn main() {
-    println!("Hello, world!");
-    println!("Hola ciudad de Merida, este saludo es Español");
+    let edad: u8 = 25;
+    println!("Hola mi nombre es Eduardo y tengo {} años de edad", edad);
 }
