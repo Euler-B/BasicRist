@@ -21,6 +21,7 @@ fn main() {
         } else {
             println!("El resultado {} no es correcto, por favor intentalo de nuevo", suma_usuario_int);
         }
+    }
 
     // Obtengo el nombre del usuario
     println!("Hola, Buenas tardes cual es tu nombre:");
