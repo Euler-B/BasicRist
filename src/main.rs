@@ -18,6 +18,7 @@ fn main() {
     //Muestro la informacion en base a los datos que he recibido del usuario
     println!("Hola Sr. {}, usted tiene {} años de edad", nombre, edad);
 
+    //Anexo informacion, donde determino a partir de su año de nacimiento cual es su generacion.
     if año_nacimiento_int <= 2006 {
         println!("Ademas es de la Generacion Z");
     } else if año_nacimiento_int <= 1996 {
